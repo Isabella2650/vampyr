@@ -37,8 +37,11 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>Har du set en vampyr?</h2>
+          <p>
+            Fortæl os, hvad du har oplevet. Hvor, hvornår og hvad du så. Hver
+            indberetning bringer os tættere på sandheden om nattens væsener.
+          </p>
         </article>
         <form id="webform"></form>
       </section>
@@ -48,6 +51,30 @@
           <p class="placeholder">Opsummering</p>
         </article>
       </section>
+      <form>
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" name="first_name" />
+        <p>Please enter a value</p>
+
+        <label for="last_name">Last name</label>
+        <input type="text" id="last_name" name="last_name" />
+        <p>Please enter a value</p>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <p>Please enter a value</p>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+        <p>Please enter a value</p>
+
+        <label for="terms">
+          <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+          Accept terms
+        </label>
+
+        <button>Sign up</button>
+      </form>
     </main>
     <footer>
       <nav class="some">
