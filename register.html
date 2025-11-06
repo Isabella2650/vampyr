@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/cards.css" />
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/forms.css" />
     <link rel="icon" type="image/png" href="img/fav.png" />
     <title>Emergency Site</title>
   </head>
@@ -46,34 +46,88 @@
         <form id="webform"></form>
       </section>
       <section id="form-summary">
-        <h2>Summary</h2>
+        <h2>Hvad bruges dine oplysninger til?</h2>
         <article>
-          <p class="placeholder">Opsummering</p>
+          <p class="placeholder">
+            De oplysninger, du indsender her, bruges til at registrere og
+            undersøge mistænkte vampyraktiviteter i dit område. Hver
+            indberetning hjælper os med at spore mønstre i nattens bevægelser,
+            så vi kan kortlægge, hvor og hvornår vampyrerne oftest viser sig.
+            Dine data bliver gemt sikkert i vores interne
+            vampyrobservationssystem og bliver udelukkende brugt til analyse og
+            videre efterforskning. Vi deler aldrig dine oplysninger med
+            udenforståendes hverken myndigheder, andre organisationer eller...
+            de udødelige selv. Formålet er at beskytte befolkningen, udbrede
+            viden og sikre, at ingen står alene med deres oplevelser. Din
+            indberetning kan derfor være med til at gøre en forskel for
+            fremtidige nattevandrere. Tak, fordi du hjælper os med at holde
+            mørket under opsyn.
+          </p>
         </article>
       </section>
       <form>
-        <label for="first_name">First name</label>
-        <input type="text" id="first_name" name="first_name" />
-        <p>Please enter a value</p>
+        <div class="form-group">
+          <label for="first_name">Fornavn</label>
 
-        <label for="last_name">Last name</label>
-        <input type="text" id="last_name" name="last_name" />
-        <p>Please enter a value</p>
+          <input type="text" id="first_name" name="first_name" required />
+          <p class="error-message">Please enter a value</p>
+        </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
-        <p>Please enter a value</p>
+        <div class="form-group">
+          <label for="last_name">Efternavn</label>
+          <input type="text" id="last_name" name="last_name" required />
+          <p class="error-message">Please enter a value</p>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <p class="error-message">Please enter a value</p>
+        </div>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" />
-        <p>Please enter a value</p>
+        <div class="form-group">
+          <label for="area">Hvilket omårde så du vampyren i?</label>
+          <select id="area" name="area" required>
+            <option value="" disabled selected>Vælg område…</option>
+            <option value="kbh">København</option>
+            <option value="vbro">Østerbro</option>
+            <option value="nbro">Nørrebro</option>
+            <option value="vbro">Vesterbro</option>
+            <option value="frb">Frederiksberg</option>
+            <option value="amager">Amager</option>
+            <option value="valby">Valby</option>
+          </select>
+        </div>
 
-        <label for="terms">
-          <input type="checkbox" id="terms" name="accept_terms" value="yes" />
-          Accept terms
-        </label>
+        <div class="form-group">
+          <p>Hvilke tegn så du?</p>
+          <label for="terms">
+            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+            Vampyr tænder
+          </label>
+          <label for="terms">
+            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+            Bidemærke
+          </label>
+          <label for="terms">
+            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+            Påvirkning af jernurt
+          </label>
+          <label for="terms">
+            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+            Reaktion på blod
+          </label>
 
-        <button>Sign up</button>
+          <label for="terms">
+            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
+            Accept terms
+          </label>
+        </div>
+        <div class="form-footer">
+          <label class="check"
+            ><input type="checkbox" required /> Accepter termer</label
+          >
+          <button>Indsend</button>
+        </div>
       </form>
     </main>
     <footer>
