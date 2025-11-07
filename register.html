@@ -42,93 +42,107 @@
             Fortæl os, hvad du har oplevet. Hvor, hvornår og hvad du så. Hver
             indberetning bringer os tættere på sandheden om nattens væsener.
           </p>
+          <br />
+          <form>
+            <div class="form-group">
+              <label for="first_name">Fornavn</label>
+              <input type="text" id="first_name" name="first_name" required />
+              <p class="error-message">Please enter a value</p>
+            </div>
+
+            <div class="form-group">
+              <label for="last_name">Efternavn</label>
+              <input type="text" id="last_name" name="last_name" required />
+              <p class="error-message">Please enter a value</p>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <p class="error-message">Please enter a value</p>
+            </div>
+
+            <div class="form-group">
+              <label for="area">Hvilket omårde så du vampyren i?</label>
+              <select id="area" name="area" required>
+                <option value="" disabled selected>Vælg område…</option>
+                <option value="Københvan">København</option>
+                <option value="Østerbro">Østerbro</option>
+                <option value="Nørrebro">Nørrebro</option>
+                <option value="Vesterbro">Vesterbro</option>
+                <option value="Frederiksberg">Frederiksberg</option>
+                <option value="Amager">Amager</option>
+                <option value="Valby">Valby</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <p>Hvilke tegn så du?</p>
+              <label for="blod">
+                <input
+                  type="checkbox"
+                  id="blod"
+                  name="blod"
+                  value="Blod"
+                  aria-describedby="terms-error"
+                />
+                Blod
+              </label>
+
+              <label for="tand">
+                <input
+                  type="checkbox"
+                  id="tand"
+                  name="tand"
+                  value="Vampyr tand"
+                  aria-describedby="terms-error"
+                />
+                Vampyr tand
+              </label>
+              <label for="bid">
+                <input
+                  type="checkbox"
+                  id="bid"
+                  name="bid"
+                  value="Vampyr bid"
+                  aria-describedby="terms-error"
+                />
+                Vampyr bid
+              </label>
+              <label for="jernurt">
+                <input
+                  type="checkbox"
+                  id="jernurt"
+                  name="jernurt"
+                  value="Påvirkning af jernurt"
+                  aria-describedby="terms-error"
+                />
+                Påvirkning af jernurt
+              </label>
+            </div>
+
+            <div class="form-footer">
+              <button>Indsend</button>
+            </div>
+          </form>
         </article>
         <form id="webform"></form>
       </section>
       <section id="form-summary">
-        <h2>Hvad bruges dine oplysninger til?</h2>
-        <article>
-          <p class="placeholder">
-            De oplysninger, du indsender her, bruges til at registrere og
-            undersøge mistænkte vampyraktiviteter i dit område. Hver
-            indberetning hjælper os med at spore mønstre i nattens bevægelser,
-            så vi kan kortlægge, hvor og hvornår vampyrerne oftest viser sig.
-            Dine data bliver gemt sikkert i vores interne
-            vampyrobservationssystem og bliver udelukkende brugt til analyse og
-            videre efterforskning. Vi deler aldrig dine oplysninger med
-            udenforståendes hverken myndigheder, andre organisationer eller...
-            de udødelige selv. Formålet er at beskytte befolkningen, udbrede
-            viden og sikre, at ingen står alene med deres oplevelser. Din
-            indberetning kan derfor være med til at gøre en forskel for
-            fremtidige nattevandrere. Tak, fordi du hjælper os med at holde
-            mørket under opsyn.
+        <h2>Opsamling (output)</h2>
+        <div>
+          <p>Fornavn: <span id="first_name_output"></span></p>
+          <p>Efternavn: <span id="last_name_output"></span></p>
+          <p>Email: <span id="email_output"></span></p>
+          <p>Område: <span id="area_output"></span></p>
+          <p>
+            Tegn: <br /><span id="blod_output"></span><br /><span
+              id="tand_output"
+            ></span
+            ><br /><span id="bid_output"></span></span
+            ><br /><span id="jernurt_output"></span>
           </p>
-        </article>
+        </div>
       </section>
-      <form>
-        <div class="form-group">
-          <label for="first_name">Fornavn</label>
-
-          <input type="text" id="first_name" name="first_name" required />
-          <p class="error-message">Please enter a value</p>
-        </div>
-
-        <div class="form-group">
-          <label for="last_name">Efternavn</label>
-          <input type="text" id="last_name" name="last_name" required />
-          <p class="error-message">Please enter a value</p>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-          <p class="error-message">Please enter a value</p>
-        </div>
-
-        <div class="form-group">
-          <label for="area">Hvilket omårde så du vampyren i?</label>
-          <select id="area" name="area" required>
-            <option value="" disabled selected>Vælg område…</option>
-            <option value="kbh">København</option>
-            <option value="vbro">Østerbro</option>
-            <option value="nbro">Nørrebro</option>
-            <option value="vbro">Vesterbro</option>
-            <option value="frb">Frederiksberg</option>
-            <option value="amager">Amager</option>
-            <option value="valby">Valby</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <p>Hvilke tegn så du?</p>
-          <label for="terms">
-            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
-            Vampyr tænder
-          </label>
-          <label for="terms">
-            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
-            Bidemærke
-          </label>
-          <label for="terms">
-            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
-            Påvirkning af jernurt
-          </label>
-          <label for="terms">
-            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
-            Reaktion på blod
-          </label>
-
-          <label for="terms">
-            <input type="checkbox" id="terms" name="accept_terms" value="yes" />
-            Accept terms
-          </label>
-        </div>
-        <div class="form-footer">
-          <label class="check"
-            ><input type="checkbox" required /> Accepter termer</label
-          >
-          <button>Indsend</button>
-        </div>
-      </form>
     </main>
     <footer>
       <nav class="some">
@@ -157,6 +171,7 @@
       </nav>
     </footer>
     <script src="js/burger.js"></script>
+    <script src="js/form.js"></script>
     <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
