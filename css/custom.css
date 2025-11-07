@@ -1,9 +1,9 @@
 :root {
   /* Colours */
-  --color-bg: #fceb94; /* page background /*
+  --color-bg: #b5b5b4; /* page background /*
 
   /* Header */
-  --color-head-bg: #ff4b00;
+  --color-head-bg: #80211e;
 
   /* Logotype */
   --color-logotype-bg: #000;
@@ -11,7 +11,7 @@
   --font-logotype-size: 2rem;
 
   /* Global menu */
-  --color-menu-bg: #6f90eb;
+  --color-menu-bg: #191a7f;
   /* Links */
   --color-link-bg: #78766e;
   --color-link-hover: #fff; /* used */
@@ -38,12 +38,12 @@
 
   /* Cards */
   --color-card-bg: #fff;
-  --color-cta-card-bg: #ff4b00;
+  --color-cta-card-bg: #191a7f;
   /* news-cards */
   --color-news-bg: #fffae2;
   --color-news-bg-inverted: #dbe2f5;
-  --color-cta-newscard-bg: #ffa680;
-  --color-cta-newscard-bg-inverted: #6f90eb;
+  --color-cta-newscard-bg: #b23f3f;
+  --color-cta-newscard-bg-inverted: #464791;
 
   /* Fonts */
   --font-family-sans: "Rubik", ui-sans-serif;
