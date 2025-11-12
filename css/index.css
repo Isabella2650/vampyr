@@ -1,0 +1,91 @@
+/* <!-- Artikel 1 --> */
+#tekst_1 {
+  padding: 5%;
+  position: fixed; /* gør at den bliver på samme sted på skærmen */
+  top: 50%; /* placér midt lodret */
+  left: 50%; /* placér midt vandret */
+  transform: translate(-50%, -50%);
+  width: 60%;
+
+  button {
+    position: sticky;
+    top: 0;
+    justify-self: end;
+  }
+
+  &:popover-open {
+    display: grid;
+    background: rgb(215, 201, 201);
+  }
+
+  &::backdrop {
+    background: #0008;
+  }
+}
+
+.img_bid {
+  max-width: 20%; /* gør billedet mindre (du kan ændre fx til 60% eller 50%) */
+  text-align: right;
+  margin: 5px auto;
+}
+
+/* <!-- Artikel 2 --> */
+#tekst_2 {
+  padding: 5%;
+  position: fixed; /* gør at den bliver på samme sted på skærmen */
+  top: 50%; /* placér midt lodret */
+  left: 50%; /* placér midt vandret */
+  transform: translate(-50%, -50%);
+  width: 60%;
+
+  button {
+    position: sticky;
+    top: 0;
+    justify-self: end;
+  }
+
+  &:popover-open {
+    display: grid;
+    background: rgb(215, 201, 201);
+  }
+
+  &::backdrop {
+    background: #0008;
+  }
+}
+.img_cafe {
+  max-width: 40%; /* gør billedet mindre (du kan ændre fx til 60% eller 50%) */
+  text-align: right;
+  margin: 5px auto;
+}
+
+/* <!-- Artikel 3 --> */
+#tekst_3 {
+  padding: 5%;
+  position: fixed; /* gør at den bliver på samme sted på skærmen */
+  top: 50%; /* placér midt lodret */
+  left: 50%; /* placér midt vandret */
+  transform: translate(-50%, -50%);
+  width: 60%;
+
+  button {
+    position: sticky;
+    top: 0;
+    justify-self: end;
+  }
+
+  &:popover-open {
+    display: grid;
+    background: rgb(215, 201, 201);
+  }
+
+  &::backdrop {
+    background: #0008;
+  }
+}
+
+.img_politi {
+  max-width: 30%; /* gør billedet mindre (du kan ændre fx til 60% eller 50%) */
+  text-align: right;
+  margin: 5px auto;
+}
