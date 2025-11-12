@@ -1,12 +1,12 @@
 :root {
   /* Colours */
-  --color-bg: #b5b5b4; /* page background /*
+  --color-bg: #830f0f; /* page background /*
 
   /* Header */
-  --color-head-bg: #80211e;
+  --color-head-bg: #090909;
 
   /* Logotype */
-  --color-logotype-bg: #000;
+  --color-logotype-bg: #ffffff;
   --color-text-logotype: #fffae2;
   --font-logotype-size: 2rem;
 
@@ -27,7 +27,7 @@
   --color-headline-text-page: #fffae2;
 
   /* Tekst */
-  --color-text: #000;
+  --color-text: #ffffff;
   --color-text-inverted: #cdccc4;
 
   /*  Marginer */
@@ -40,8 +40,8 @@
   --color-card-bg: #fff;
   --color-cta-card-bg: #191a7f;
   /* news-cards */
-  --color-news-bg: #fffae2;
-  --color-news-bg-inverted: #dbe2f5;
+  --color-news-bg: #000000;
+  --color-news-bg-inverted: #050505;
   --color-cta-newscard-bg: #b23f3f;
   --color-cta-newscard-bg-inverted: #464791;
 
