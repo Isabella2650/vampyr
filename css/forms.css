@@ -129,8 +129,8 @@ form {
 }
 
 #form-section {
-  background: #d9d9d9; /* grå baggrund */
-  border: 1px solid #8f8f8f; /* tynd mørkegrå kant */
+  background: #000000; /* grå baggrund */
+  border: 1px solid #ffffff; /* tynd mørkegrå kant */
   border-radius: 6px; /* lette hjørner */
   padding: 2rem; /* luft omkring indhold */
   max-width: 700px; /* breddebegrænsning */
@@ -138,8 +138,8 @@ form {
 }
 
 #form-summary {
-  background: #d9d9d9; /* grå baggrund */
-  border: 1px solid #8f8f8f; /* tynd mørkegrå kant */
+  background: #000000; /* grå baggrund */
+  border: 1px solid #ffffff; /* tynd mørkegrå kant */
   border-radius: 6px; /* lette hjørner */
   padding: 2rem; /* luft omkring indhold */
   max-width: 700px; /* breddebegrænsning */
