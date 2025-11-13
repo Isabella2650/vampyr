@@ -13,8 +13,8 @@
   /* Global menu */
   --color-menu-bg: #332105;
   /* Links */
-  --color-link-bg: #76271e;
-  --color-link-hover: #000000; /* used */
+  --color-link-bg: #;
+  --color-link-hover: #fff; /* used */
   --color-link-active: #99958f; /* used */
   --border-radius-links: 1px;
 
@@ -63,7 +63,7 @@
   --form-submit-size: 1rem;
 
   /* Infographics */
-  --color-info-bg: #fff;
-  --color-infobox-1-bg: #fceb94;
-  --color-infobox-2-bg: #def5db;
+  --color-info-bg: #898786;
+  --color-infobox-1-bg: #76271e;
+  --color-infobox-2-bg: #aa3d31;
 }
