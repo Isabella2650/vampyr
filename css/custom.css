@@ -1,21 +1,21 @@
 :root {
   /* Colours */
-  --color-bg: #641111; /* page background /*
+  --color-bg: light-dark(#641111, #a54949); /* page background /*
 
   /* Header */
-  --color-head-bg: #090909;
+  --color-head-bg: light-dark(#111111, #ffffff);
 
   /* Logotype */
-  --color-logotype-bg: #76271e;
-  --color-text-logotype: #fffae2;
+  --color-logotype-bg: light-dark(#76271e, #9c3838);
+  --color-text-logotype: light-dark(#d7d2d2, #000000);
   --font-logotype-size: 2rem;
 
   /* Global menu */
-  --color-menu-bg: #332105;
+  --color-menu-bg: light-dark(#332105, #906d46);
   /* Links */
   --color-link-bg: #;
-  --color-link-hover: #fff; /* used */
-  --color-link-active: #99958f; /* used */
+  --color-link-hover: light-dark(#d7d2d2, #000000); /* used */
+  --color-link-active: light-dark(#d7d2d2, #000000); /* used */
   --border-radius-links: 1px;
 
   /* Headlines og rubrik */
@@ -23,12 +23,12 @@
   --font-sub1-size: 1rem;
   --font-h2-size: 1rem;
   --font-h3-size: 1rem;
-  --color-headline-bg: #332105;
-  --color-headline-text-page: #fffae2;
+  --color-headline-bg: light-dark(#332105, #906d46);
+  --color-headline-text-page: light-dark(#d7d2d2, #000000);
 
   /* Tekst */
-  --color-text: #ffffff;
-  --color-text-inverted: #cdccc4;
+  --color-text: light-dark(#d7d2d2, #000000);
+  --color-text-inverted: light-dark(#d7d2d2, #000000);
 
   /*  Marginer */
   --margin-head-bottom: 5px;
@@ -37,13 +37,13 @@
   --border-radius: 5px;
 
   /* Cards */
-  --color-card-bg: #000;
-  --color-cta-card-bg: #76271e;
+  --color-card-bg: light-dark(#111111, #ffffff);
+  --color-cta-card-bg: light-dark(#76271e, #9c3838);
   /* news-cards */
-  --color-news-bg: #000;
-  --color-news-bg-inverted: #000;
-  --color-cta-newscard-bg: #76271e;
-  --color-cta-newscard-bg-inverted: #76271e;
+  --color-news-bg: light-dark(#111111, #ffffff);
+  --color-news-bg-inverted: light-dark(#111111, #ffffff);
+  --color-cta-newscard-bg: light-dark(#76271e, #9c3838);
+  --color-cta-newscard-bg-inverted: light-dark(#76271e, #9c3838);
 
   /* Fonts */
   --font-family-sans: "Rubik", ui-sans-serif;
@@ -63,7 +63,6 @@
   --form-submit-size: 1rem;
 
   /* Infographics */
-  --color-info-bg: #898786;
-  --color-infobox-1-bg: #76271e;
-  --color-infobox-2-bg: #aa3d31;
+  --color-info-bg: light-dark (#111, #fff);
+  --color-infobox-1-bg: light-dark(#9a9392, #9c3838);
 }
