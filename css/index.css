@@ -1,4 +1,5 @@
 /* <!-- Artikel 1 --> */
+
 #tekst_1 {
   padding: 5%;
   position: fixed; /* gør at den bliver på samme sted på skærmen */
@@ -88,4 +89,15 @@
   max-width: 30%; /* gør billedet mindre (du kan ændre fx til 60% eller 50%) */
   text-align: right;
   margin: 5px auto;
+}
+
+[popover] {
+  opacity: 0;
+  rotate: 360deg;
+  transition: 1s allow-discrete;
+}
+
+:popover-open {
+  opacity: 1;
+  rotate: none;
 }

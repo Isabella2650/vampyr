@@ -1,7 +1,12 @@
 html {
+  color-scheme: light;
   font-family: var(--font-family-sans);
   color: var(--color-text);
   background-color: var(--color-bg);
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 header {
@@ -142,4 +147,38 @@ footer a {
   object-fit: contain; /* sørger for at hele logoet vises */
   margin-right: auto; /* skubber logoet helt til venstre */
   margin-top: 10px;
+}
+
+.icon {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#skrift_icon {
+  width: 200px;
+  height: auto;
+  margin-top: 50px;
+  white-space: nowrap;
+  font-size: 2rem; /* større overskrift */
+  font-weight: 700;
+}
+.overskrift {
+  font-size: 2.5rem;
+}
+
+.sub {
+  white-space: nowrap;
+  font-size: 1.5rem;
+  margin: 10%;
+}
+
+.light_mode {
+  width: 180px; /* justér størrelsen efter behov */
+  height: auto;
+  object-fit: contain; /* sørger for at hele logoet vises */
+  margin-left: auto; /* skubber logoet helt til venstre */
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
