@@ -190,3 +190,8 @@ footer a {
   margin-right: auto; /* skubber logoet helt til venstre */
   margin-top: 10px;
 }
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
