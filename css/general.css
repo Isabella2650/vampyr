@@ -182,3 +182,11 @@ footer a {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+.vampyr {
+  width: 400px; /* justér størrelsen efter behov */
+  height: auto;
+  object-fit: contain; /* sørger for at hele logoet vises */
+  margin-right: auto; /* skubber logoet helt til venstre */
+  margin-top: 10px;
+}
