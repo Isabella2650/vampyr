@@ -138,7 +138,7 @@ form {
 }
 
 #form-summary {
-  background: light-dark(#000000, #fff); /* grå baggrund */
+  background: light-dark(#111, #fff); /* grå baggrund */
   border: 1px solid light-dark(#111, #fff); /* tynd mørkegrå kant */
   border-radius: 6px; /* lette hjørner */
   padding: 2rem; /* luft omkring indhold */
